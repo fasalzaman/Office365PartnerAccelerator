@@ -16,27 +16,55 @@ If you have been provided with a Microsoft Hands-on Labs environment for this wo
 
 Navigate to the registration link, provide the required details and click on **Submit**.
 
+<kbd>![](images/register.jpg)</kbd>
+
 Then click on **Launch lab** to start deploying your environment.
+
+<kbd>![](images/launchlab.jpg)</kbd>
 
 Once the environment is provisioned, a screen with all the appropriate lab credentials will be presented. 
 
+<kbd>![](images/envdetails.jpg)</kbd>
 
 ## Exercise 1 : Enable cloud or hybrid Identity 
 
 Since we don't have any on-premise infrastructure, we will continue with Cloud identity only.
-Now login to https://admin.microsoft.com/ using the credentials provided in the environment details page. You are the having **Global Administrator** privilege on the Tenant and an Office 365 License to access various Apps.
+Now login to Microsoft 365 Admin Center https://admin.microsoft.com/ using the credentials provided in the environment details page. You are the having **Global Administrator** privilege on the Tenant and an Office 365 License to access various Apps.
+Microsoft 365 Admin Centre will look like this :
 
-
-
+<kbd>![](images/msac.jpg)</kbd>
 
 ### Task 1 : Add a new user user with license assigned
+
+Select **Active Users** under **User** tab to see all the active users in this tenant.
+<kbd>![](images/activeusers.jpg)</kbd>
+
+To add a new user, Click on **Add a User** button.
+
+<kbd>![](images/adduser.jpg)</kbd>
+
+In the Basics window that appear, provide the required details and click on **Next** 
+
+<kbd>![](images/userbasic.jpg)</kbd>
+
+In the Product License window, Select **Assign User a Product license** and check the box near Microsoft 365 license. Then, Click on **Next**.
+
+<kbd>![](images/userlicense.jpg)</kbd>
+
+In the optional window setting that appear, click on **Next**.
+
+<kbd>![](images/useroptional.jpg)</kbd>
+
+In the next wind Click on **Finish adding** to create a new user 
+
+<kbd>![](images/usercreate.jpg)</kbd>
 
 https://docs.microsoft.com/en-us/microsoft-365/admin/add-users/add-users?view=o365-worldwide
 
 ### Task 2 : Get Teams Ready for New User
 
 Open Teams online https://teams.microsoft.com/go# and sign-in using new user's credentials.
-
+<kbd>![](images/moving-existing-apps/project-overview.png)</kbd>
 ## Exercise 2 : Configure Teams
 
 ### Manage Microsoft Teams settings for your organization
@@ -46,6 +74,7 @@ https://docs.microsoft.com/en-us/microsoftteams/enable-features-office-365
 ### Configure Teams Messaging setting 
 
 https://docs.microsoft.com/en-us/MicrosoftTeams/messaging-policies-in-teams
+<kbd>![](images/moving-existing-apps/project-overview.png)</kbd>
 
 ### Managing External and Guest Access in Teams
 
