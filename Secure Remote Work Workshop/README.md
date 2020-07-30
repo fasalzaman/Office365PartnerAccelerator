@@ -29,7 +29,11 @@ Once the environment is provisioned, a screen with all the appropriate lab crede
 ## Exercise 1 : Enable cloud or hybrid Identity 
 
 Since we don't have any on-premise infrastructure, we will continue with Cloud identity only.
-Now login to Microsoft 365 Admin Center https://admin.microsoft.com/ using the credentials provided in the environment details page. You are the having **Global Administrator** privilege on the Tenant and an Office 365 License to access various Apps.
+
+Now login to Microsoft 365 Admin Center https://admin.microsoft.com/ using the credentials provided in the environment details page. 
+
+You are the having **Global Administrator** privilege on the Tenant and an Office 365 License to access various Apps.
+
 Microsoft 365 Admin Centre will look like this :
 
 <kbd>![](images/msac.jpg)</kbd>
@@ -68,6 +72,9 @@ In the next wind Click on **Finish adding** to create a new user
 
 https://docs.microsoft.com/en-us/microsoft-365/admin/add-users/add-users?view=o365-worldwide
 
+Now you have 2 user, 1 with Global Admin privilege on the Tenant and another one with "No administrator" access.
+We will be using the user account with Global Admin privilege (Lab User) for configuring Teams setting.
+
 ### Task 2 : Get Teams Ready for New User
 
 Open Teams online https://teams.microsoft.com/go# and sign-in using new user's credentials.
@@ -83,6 +90,7 @@ For configuring teams you can navigate to **Microsoft Teams Admin Center**.
 For that click on **Show All** button and Select **Teams** under **Admin Centers** menu.
 
 <kbd>![](images/showall.jpg)</kbd>
+
 <kbd>![](images/accessteamsAC.jpg)</kbd>
 
 Microsoft Teams Admin Center will look like this :
