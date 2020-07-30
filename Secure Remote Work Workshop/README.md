@@ -40,7 +40,7 @@ Microsoft 365 Admin Centre will look like this :
 
 Now lets try accessing teams for this user.
 
-Open Teams online https://teams.microsoft.com/go# and sign-in using new user's credentials.
+Open Teams online https://teams.microsoft.com/go# and sign-in using the credentials provided in the lab environment details page.
 
 <kbd>![](images/teams.jpg)</kbd>
 
