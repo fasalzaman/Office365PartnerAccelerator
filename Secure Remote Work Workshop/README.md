@@ -126,7 +126,7 @@ https://docs.microsoft.com/en-us/MicrosoftTeams/manage-apps
 
 ## Exercise 3 : Secure Access to Teams
 
-### Implement MFA with Conditional Access policies for end users
+### Task 1 : Implement MFA with Conditional Access policies for end users
 
 To configure MFA, Select Azure Active Directory under Admin Centers
 
@@ -142,7 +142,7 @@ Now select MFA
 
 https://docs.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication?view=o365-worldwide
 
-### Implement SSPR
+### Task 2 : Implement SSPR
 
 <kbd>![](images/sspr.jpg)</kbd>
 
