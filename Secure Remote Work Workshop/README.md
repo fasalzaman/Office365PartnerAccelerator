@@ -34,9 +34,16 @@ Microsoft 365 Admin Centre will look like this :
 
 <kbd>![](images/msac.jpg)</kbd>
 
+Now lets try accessing teams for this user.
+
+Open Teams online https://teams.microsoft.com/go# and sign-in using new user's credentials.
+
+<kbd>![](images/teams.jpg)</kbd>
+
 ### Task 1 : Add a new user user with license assigned
 
 Select **Active Users** under **User** tab to see all the active users in this tenant.
+
 <kbd>![](images/activeusers.jpg)</kbd>
 
 To add a new user, Click on **Add a User** button.
@@ -64,30 +71,50 @@ https://docs.microsoft.com/en-us/microsoft-365/admin/add-users/add-users?view=o3
 ### Task 2 : Get Teams Ready for New User
 
 Open Teams online https://teams.microsoft.com/go# and sign-in using new user's credentials.
-<kbd>![](images/moving-existing-apps/project-overview.png)</kbd>
+
+<kbd>![](images/teams.jpg)</kbd>
+
+Now you have teams ready for 2 users. 
+
 ## Exercise 2 : Configure Teams
 
-### Manage Microsoft Teams settings for your organization
+For configuring teams you can navigate to **Microsoft Teams Admin Center**. 
+
+For that click on **Show All** button and Select **Teams** under **Admin Centers** menu.
+
+<kbd>![](images/showall.jpg)</kbd>
+<kbd>![](images/accessteamsAC.jpg)</kbd>
+
+Microsoft Teams Admin Center will look like this :
+
+<kbd>![](images/teamsadmincentre.jpg)</kbd>
+
+### Task 1 : Manage Microsoft Teams settings for your organization
 
 https://docs.microsoft.com/en-us/microsoftteams/enable-features-office-365
 
-### Configure Teams Messaging setting 
+### Task 2 : Configure Teams Messaging setting 
 
 https://docs.microsoft.com/en-us/MicrosoftTeams/messaging-policies-in-teams
-<kbd>![](images/moving-existing-apps/project-overview.png)</kbd>
 
-### Managing External and Guest Access in Teams
+<kbd>![](images/messagepolicy.jpg)</kbd>
+
+### Task 3 : Managing External and Guest Access in Teams
 
 https://docs.microsoft.com/en-us/MicrosoftTeams/manage-external-access
 https://docs.microsoft.com/en-us/MicrosoftTeams/guest-access
 
-### Manage Meeting policies in Teams
+<kbd>![](images/externalguest.jpg)</kbd>
+
+### Task 4 : Manage Meeting policies in Teams
 
 https://docs.microsoft.com/en-us/microsoftteams/meeting-policies-in-teams
 
-### Manage Apps in Microsoft Teams
+### Task 5 : Manage Apps in Microsoft Teams
 
 https://docs.microsoft.com/en-us/MicrosoftTeams/manage-apps
+
+<kbd>![](images/manageapps.jpg)</kbd>
 
 ## Exercise 3 : Secure Access to Teams
 
@@ -95,3 +122,4 @@ https://docs.microsoft.com/en-us/MicrosoftTeams/manage-apps
 
 https://docs.microsoft.com/en-us/microsoft-365/admin/security-and-compliance/set-up-multi-factor-authentication?view=o365-worldwide
 
+<kbd>![](images/sspr.jpg)</kbd>
