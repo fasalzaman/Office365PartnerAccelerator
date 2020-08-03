@@ -1,0 +1,25 @@
+[
+
+    {
+      "Name": "Secure Remote Work Workshop",
+      "Language": "English",
+      "Files": [
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/PraveenAnil/Office365PartnerAccelerator/master/Secure%20Remote%20Work%20Workshop/00_overview.md",
+          "Order": 1
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/PraveenAnil/Office365PartnerAccelerator/master/Secure%20Remote%20Work%20Workshop/01_exercise.md",
+          "Order": 2
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/PraveenAnil/Office365PartnerAccelerator/master/Secure%20Remote%20Work%20Workshop/02_exercise.md",
+          "Order": 3
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/PraveenAnil/Office365PartnerAccelerator/master/Secure%20Remote%20Work%20Workshop/03_exercise.md",
+          "Order": 4
+        }
+      ]
+    }
+  ]
