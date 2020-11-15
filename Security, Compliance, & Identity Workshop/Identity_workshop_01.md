@@ -1,4 +1,4 @@
-## Identity Workshop
+# Identity Workshop
 
 In this lab we are going to learn:
 
@@ -88,7 +88,7 @@ Select your Azure AD group to use with the Conditional Access policy
 
 To apply the Conditional Access policy for the group, select **Done**.
 
-**Configure the conditions for multi-factor authentication**
+### Configure the conditions for multi-factor authentication
 
 With the Conditional Access policy created and a test group of users assigned, now define the cloud apps or actions that trigger the policy. These cloud apps or actions are the scenarios you decide require additional processing, such as to prompt for MFA. For example, you could decide that access to a financial application or use of management tools requires as an additional verification prompt.
 
@@ -115,7 +115,7 @@ Conditional Access policies can be set to Report-only if you want to see how the
 Set the **Enable policy** toggle to **On**.
 To apply the Conditional Access policy, select **Create**.
 
-**Test Azure Multi-Factor Authentication**
+### Test Azure Multi-Factor Authentication
 
 Let's see your Conditional Access policy and Azure Multi-Factor Authentication in action. First, sign in to a resource that doesn't require MFA as follows:
 
