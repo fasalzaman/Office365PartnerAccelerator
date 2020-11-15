@@ -62,7 +62,7 @@ In the left navigation pane, select **User**s, and then, on the **Users | All us
 
 On the Properties page, **selected** to enable it for selected user groups in your business. Click on **Select group**, choose the newly created group and click on Select.  Now, select **Save**.
 
-<kbd>![](images/ssprAzure.jpg)</kbd>
+<kbd>![](images/ssprazure.jpg)</kbd>
 
 When your users sign in, they will be prompted to enter additional contact information that will help them reset their password in the future.
 
