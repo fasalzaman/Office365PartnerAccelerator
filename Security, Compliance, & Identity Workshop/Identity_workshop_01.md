@@ -30,7 +30,7 @@ You manage applications on the Enterprise applications blade located in the Mana
 
 Navigate to https://security.microsoft.com and login with the admin credentials provided to you.
 
-<kbd>![](images/security.jpg)</kbd>
+<kbd>![](images/securitycenter.jpg)</kbd>
 
 Once you successfully login, select **Security Score** in the menu bar availabe in the left hand side to see all the Security Score related details of your tenant.
 
@@ -60,7 +60,9 @@ Under Self-service password reset, select **Go to the Azure portal to turn on se
 
 In the left navigation pane, select **User**s, and then, on the **Users | All users** page, select **Password reset**.
 
-On the Properties page, **select All** to enable it for everyone in your business, and then select **Save**.
+On the Properties page, **selected** to enable it for selected user groups in your business. Click on **Select group**, choose the newly created group and click on Select.  Now, select **Save**.
+
+<kbd>![](images/ssprAzure.jpg)</kbd>
 
 When your users sign in, they will be prompted to enter additional contact information that will help them reset their password in the future.
 
