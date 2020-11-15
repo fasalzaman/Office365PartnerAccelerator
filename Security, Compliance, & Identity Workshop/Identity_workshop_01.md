@@ -16,7 +16,7 @@ Compare with benchmarks and establish key performance indicators (KPIs).
 
 •	**Multifactor Authentication (MFA)** – To provide an additional level of security for sign-ins, you must use multi-factor authentication (MFA), which uses both a password, which should be strong, and an additional verification method based on:
     * Something you have with you that is not easily duplicated, such as a smart phone.
-    * Something you uniquely and biologically have, such as your fingerprints, face, or other biometric attribute.
+    • Something you uniquely and biologically have, such as your fingerprints, face, or other biometric attribute.
 The additional verification method is not employed until after the user's password has been verified. With MFA, even if a strong user password is compromised, the attacker does not have your smart phone or your fingerprint to complete the sign-in.
 
 •	**Conditional Access Policy** - The modern security perimeter now extends beyond an organization's network to include user and device identity. Organizations can utilize these identity signals as part of their access control decisions.
