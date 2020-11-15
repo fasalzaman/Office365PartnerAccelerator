@@ -64,6 +64,70 @@ On the Properties page, **select All** to enable it for everyone in your busines
 
 When your users sign in, they will be prompted to enter additional contact information that will help them reset their password in the future.
 
-## Configure Multi-factor Authentiacation 
+## Configure Multi-factor Authentiacation & Conditional Access policy
+
+First, create a Conditional Access policy and assign your group of users as follows:
+
+Sign-in to https://admin.microsoft.com and open **Azure Active Directory** Admin Center from **All Admin Centers**.
+
+Select **Azure Active Directory**.
+
+Select **Conditional Access**, then choose **+ New policy**.
+
+Enter a name for the policy, such as MFA Pilot.
+
+Under **Assignment**s, choose **Users and groups**, then the Select users and groups radio button.
+
+Check the box for **Users and groups**, then Select to browse the available Azure AD users and groups.
+
+Browse for and select your newly created Azure AD group, then choose **Select**.
+
+Select your Azure AD group to use with the Conditional Access policy
+
+To apply the Conditional Access policy for the group, select **Done**.
+
+**Configure the conditions for multi-factor authentication**
+
+With the Conditional Access policy created and a test group of users assigned, now define the cloud apps or actions that trigger the policy. These cloud apps or actions are the scenarios you decide require additional processing, such as to prompt for MFA. For example, you could decide that access to a financial application or use of management tools requires as an additional verification prompt.
+
+For this tutorial, configure the Conditional Access policy to require MFA when a user signs in to the Azure portal.
+
+Select Cloud apps or actions. You can choose to apply the Conditional Access policy to All cloud apps or Select apps. To provide flexibility, you can also exclude certain apps from the policy.
+
+For this tutorial, on the Include page, choose the **Select apps** radio button.
+
+Choose **Select**, then browse the list of available sign-in events that can be used.
+
+For this tutorial, choose **Microsoft Azure Management** so the policy applies to sign-in events to the Azure portal.
+
+To apply the select apps, choose **Select**, then **Done**.
+
+Select the **Microsoft Azure Management** app to include in the Conditional Access policy
+
+Access controls let you define the requirements for a user to be granted access, such as needing an approved client app or using a device that's Hybrid Azure AD joined. In this tutorial, configure the access controls to require MFA during a sign-in event to the Azure portal.
+
+Under **Access controls**, choose **Grant**, then make sure the **Grant access** radio button is selected.
+Check the box for **Require multi-factor authenticatio**, then choose **Select**.
+Conditional Access policies can be set to Report-only if you want to see how the configuration would impact users, or Off if you don't want to the use policy right now. As a test group of users was targeted for this tutorial, lets enable the policy and then test Azure Multi-Factor Authentication.
+
+Set the **Enable policy** toggle to **On**.
+To apply the Conditional Access policy, select **Create**.
+
+**Test Azure Multi-Factor Authentication**
+
+Let's see your Conditional Access policy and Azure Multi-Factor Authentication in action. First, sign in to a resource that doesn't require MFA as follows:
+
+Open a new browser window in InPrivate or incognito mode and browse to https://account.activedirectory.windowsazure.com
+Sign in with your non-administrator newly created user user, such as testuser. There's no prompt for you to complete MFA.
+Close the browser window.
+Now sign in to the Azure portal. As the Azure portal was configured in the Conditional Access policy to require additional verification, you get an Azure Multi-Factor Authentication prompt.
+
+Open a new browser window in InPrivate or incognito mode and browse to https://portal.azure.com.
+
+Sign in with your non-administrator test user, such as testuser. You're required to register for and use Azure Multi-Factor Authentication. Follow the prompts to complete the process and verify you successfully sign in to the Azure portal.
+
+Follow the browser prompts and then on your registered multi-factor authentication prompt to sign in
+
+Close the browser window.
 
 
