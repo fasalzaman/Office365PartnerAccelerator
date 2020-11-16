@@ -90,13 +90,9 @@ Select your Azure AD group to use with the Conditional Access policy
 
 To apply the Conditional Access policy for the group, select **Done**.
 
-### Configure the conditions for multi-factor authentication
-
 With the Conditional Access policy created and a test group of users assigned, now define the cloud apps or actions that trigger the policy. These cloud apps or actions are the scenarios you decide require additional processing, such as to prompt for MFA. For example, you could decide that access to a financial application or use of management tools requires as an additional verification prompt.
 
-For this tutorial, configure the Conditional Access policy to require MFA when a user signs in to the Azure portal.
-
-Select Cloud apps or actions. You can choose to apply the Conditional Access policy to All cloud apps or Select apps. To provide flexibility, you can also exclude certain apps from the policy.
+Select **Cloud apps or actions**. You can choose to apply the Conditional Access policy to All cloud apps or Select apps. To provide flexibility, you can also exclude certain apps from the policy.
 
 For this tutorial, on the Include page, choose the **Select apps** radio button.
 
