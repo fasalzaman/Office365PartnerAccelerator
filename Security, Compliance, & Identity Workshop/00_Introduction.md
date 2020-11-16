@@ -21,7 +21,14 @@ Select **Active Users** under **User** tab to see all the active users in this t
 
 To add a new user, Click on **Add a User** button.
 
-In the **Basics** window that appear, provide the required details and click on **Next**
+In the **Basics** window that appear, provide the following details and click on **Next**
+
+* First Name : Test
+* Last Name : User
+* Display Name : Test User
+* Username : testuser
+* Password Settings : Select **Let me create the password** and provide a strong password and in the password section
+* Uncheck both the options provided under Password Settings   
 
 In the **Product License** window, Select **Create user without product license**. Then, Click on **Next**.
 
@@ -37,7 +44,7 @@ Click on **Add a group**.
 
 Select **Group Type** as **Security**. Click next 
 
-In the **Basics tab**, provide a Group Name and Click **Next**.
+In the **Basics tab**, provide the Group Name **TestGroup** and Click **Next**.
 
 In the **Finish tab**. Click **Create Group**.
 
