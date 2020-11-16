@@ -72,9 +72,11 @@ First, create a Conditional Access policy and assign your group of users as foll
 
 Sign-in to https://admin.microsoft.com and open **Azure Active Directory** Admin Center from **All Admin Centers**.
 
-Select **Azure Active Directory**.
+Select **Azure Active Directory**. 
 
-Select **Conditional Access**, then choose **+ New policy**.
+In the New windo that appear, under **Manage** section select **Security** tile.
+
+Now, select **Conditional Access**, then choose **+ New policy**.
 
 Enter a name for the policy, such as MFA Pilot.
 
