@@ -30,9 +30,7 @@ In the Basics window that appear, provide the required details and click on **Ne
 
 <kbd>![](images/userbasic.jpg)</kbd>
 
-In the Product License window, Select **Assign User a Product license** and check the box near Microsoft 365 license. Then, Click on **Next**.
-
-<kbd>![](images/userlicense.jpg)</kbd>
+In the Product License window, Select **Assign User a Product license** and check the box near Microsoft 365 E5 license. Then, Click on **Next**.
 
 In the optional window setting that appear, click on **Next**.
 
